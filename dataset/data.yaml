@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['belt', 'brake_system_fault', 'car_closed', 'check_engine', 'oil', 'tachometer', 'vehicle_charging']
+
+roboflow:
+  workspace: coursework-0cy4m
+  project: tachometer-r5wyv
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/coursework-0cy4m/tachometer-r5wyv/dataset/1
